@@ -16,7 +16,7 @@ const IndexPage = () => (
               HeroText
             }
           }
-          allStrapiArticle(filter: {status: {eq: "published"}}) {
+          allStrapiArticle(filter: { status: { eq: "published" } }) {
             edges {
               node {
                 strapiId
@@ -27,18 +27,18 @@ const IndexPage = () => (
                 }
                 image {
                   childImageSharp {
-                      fixed(width: 800, height: 500) {
-                      	src
-                      }
+                    fixed(width: 800, height: 500) {
+                      src
+                    }
                   }
                 }
                 user {
                   username
                   image {
                     childImageSharp {
-                        fixed(width: 30, height: 30) {
-                        	src
-                        }
+                      fixed(width: 30, height: 30) {
+                        src
+                      }
                     }
                   }
                 }

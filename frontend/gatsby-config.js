@@ -6,13 +6,13 @@ module.exports = {
   siteMetadata: {
     title: "Strapi Gatsby Blog Starter",
     titleTemplate: "%s · Unleash content",
-    description:
-      "Strapi Gatsby Blog Starter",
+    description: "Strapi Gatsby Blog Starter",
     url: process.env.API_URL || "http://localhost:1337", // No trailing slash allowed!
     image: "/uploads/default-image.jpeg", // Path to your image you placed in the 'static' folder
     twitterUsername: "@you",
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-source-filesystem`,
@@ -26,11 +26,7 @@ module.exports = {
       resolve: "gatsby-source-strapi",
       options: {
         apiURL: process.env.API_URL || "http://localhost:1337",
-        contentTypes: [
-          "article",
-          "category",
-          "user"
-        ],
+        contentTypes: ["article", "category", "user"],
         singleTypes: [`Homepage`],
         queryLimit: 1000,
       },
