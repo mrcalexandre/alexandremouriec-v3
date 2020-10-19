@@ -111,3 +111,6 @@ coverage
 exports
 .cache
 build
+
+# Local Netlify folder
+.netlify

@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 
 const Nav = () => (
   <StaticQuery
@@ -20,41 +20,24 @@ const Nav = () => (
         }
       }
     `}
-    render={data =>
+    render={data => (
       <div>
-        <div>
-          <nav className="uk-navbar-container" data-uk-navbar>
-            <div className="uk-navbar-left">
-              <ul className="uk-navbar-nav">
-                <li>
-                  <Link to="/">{data.strapiHomepage.Nav.navText}</Link>
-                </li>
-              </ul>
-            </div>
-
-            <div className="uk-navbar-right">
-            <button className="uk-button uk-button-default uk-margin-right" type="button">Categories</button>
-            <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
-                <ul className="uk-nav uk-dropdown-nav">
-                { data.allStrapiCategory.edges.map((category, i) => {
-                    return (
-                      <li key={`category__${category.node.slug}`}>
-                        <Link to={`/category/${category.node.slug}`}>
-                          {category.node.name}
-                        </Link>
-                      </li>
-                    )
-                  })
-                }
-                </ul>
-            </div>
-            </div>
-          </nav>
-        </div>
+        <header className="text-gray-700">
+          <div classname="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a className="flex items-center text-gray-900 mb-4 md:mb-0 text-md">
+              Alexandre Mouriec
+            </a>
+            <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+              <a className="mr-5 hover:text-gray-900">First Link</a>
+              <a className="mr-5 hover:text-gray-900">Second Link</a>
+              <a className="mr-5 hover:text-gray-900">Third Link</a>
+              <a className="mr-5 hover:text-gray-900">Fourth Link</a>
+            </nav>
+          </div>
+        </header>
       </div>
-    }
+    )}
   />
-
 )
 
 export default Nav

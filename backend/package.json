@@ -1,41 +1,39 @@
 {
-  "name": "strapi-starter-gatsby-blog-advanced",
+  "name": "alexandre-mouriec-portfolio-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Portfolio backend made by Alexandre Mouriec",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "heroku-prebuild": "node scripts/postgres-env.js",
-    "heroku-postbuild": "strapi build && node scripts/postinstall.js"
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
     "fs-extra": "^9.0.1",
     "knex": "<0.20.0",
     "lodash": "^4.17.19",
-    "pg": "^8.3.0",
+    "pg": "^8.4.1",
     "sqlite3": "latest",
-    "strapi": "^3.1.5",
-    "strapi-admin": "^3.1.5",
-    "strapi-connector-bookshelf": "^3.1.5",
-    "strapi-plugin-content-manager": "^3.1.5",
-    "strapi-plugin-content-type-builder": "^3.1.5",
-    "strapi-plugin-email": "^3.1.5",
-    "strapi-plugin-graphql": "^3.1.5",
-    "strapi-plugin-upload": "^3.1.5",
-    "strapi-plugin-users-permissions": "^3.1.5",
-    "strapi-provider-upload-cloudinary": "^3.1.1",
-    "strapi-utils": "^3.1.5",
-    "unzip-stream": "^0.3.0"
+    "strapi": "^3.2.3",
+    "strapi-admin": "^3.2.3",
+    "strapi-connector-bookshelf": "^3.2.3",
+    "strapi-plugin-content-manager": "^3.2.3",
+    "strapi-plugin-content-type-builder": "^3.2.3",
+    "strapi-plugin-email": "^3.2.3",
+    "strapi-plugin-graphql": "^3.2.3",
+    "strapi-plugin-upload": "^3.2.3",
+    "strapi-plugin-users-permissions": "^3.2.3",
+    "strapi-provider-upload-local": "^3.2.3",
+    "strapi-utils": "^3.2.3",
+    "unzip-stream": "^0.3.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Alexandre Mouriec"
   },
   "strapi": {
-    "uuid": "STRAPI-STARTER-GATSBY-BLOG"
+    "uuid": "ALEXANDRE-MOURIEC-PORTFOLIO"
   },
   "engines": {
     "node": ">=10.0.0",

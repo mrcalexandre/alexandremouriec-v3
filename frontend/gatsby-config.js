@@ -4,12 +4,12 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: "Strapi Gatsby Blog Starter",
-    titleTemplate: "%s · Unleash content",
-    description: "Strapi Gatsby Blog Starter",
+    title: "Alexandre Mouriec",
+    titleTemplate: "%s · Full Stack Developer",
+    description: "Alexandre Mouriec's portfolio",
     url: process.env.API_URL || "http://localhost:1337", // No trailing slash allowed!
     image: "/uploads/default-image.jpeg", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@you",
+    twitterUsername: "@mrcalexandre",
   },
   plugins: [
     `gatsby-plugin-postcss`,
@@ -36,12 +36,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "gatsby-starter-default",
-        short_name: "starter",
+        name: "alexandre-mouriec-portfolio",
+        short_name: "alexandremouriec",
         start_url: "/",
         background_color: "#663399",
         theme_color: "#663399",
         display: "minimal-ui",
+        icon: "src/images/favicon.png",
       },
     },
     "gatsby-plugin-offline",
