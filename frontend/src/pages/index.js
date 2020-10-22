@@ -533,59 +533,52 @@ export default function IndexPage({ fixed }) {
           </div>
         </div>
       </section>
-      <div className="text-gray-700 body-font relative">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-              Contact Us
+      <div className="relative">
+        <div className="container px-5 py-20 mx-auto">
+          <div className="flex flex-col text-center w-full mb-6">
+            <h1 className="text-4xl text-center tracking-tight leading-10 font-extrabold text-gray-900 sm:text-2xl sm:leading-none md:text-4xl mt-12">
+              Contact Me
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify.
-            </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
-              <div className="p-2 w-1/2" data-children-count="1">
+              <div className="p-3 w-1/2" data-children-count="1">
                 <input
-                  className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
-                  placeholder="Name"
                   type="text"
-                  data-kwimpalastatus="alive"
-                  data-kwimpalaid="1603132198319-0"
+                  placeholder="Name"
+                  class="mt-1 form-input block w-full py-3 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5"
                 />
               </div>
-              <div className="p-2 w-1/2" data-children-count="1">
+              <div className="p-3 w-1/2" data-children-count="1">
                 <input
-                  className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2"
-                  placeholder="Email"
                   type="email"
-                  data-kwimpalastatus="alive"
-                  data-kwimpalaid="1603132198319-1"
+                  placeholder="Email"
+                  class="mt-1 form-input block w-full py-3 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5"
                 />
               </div>
-              <div className="p-2 w-full" data-children-count="1">
+              <div className="p-3 w-full" data-children-count="1">
                 <textarea
-                  className="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block"
-                  placeholder="Message"
+                  rows="7"
+                  class="form-textarea mt-1 block w-full py-3 px-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5"
+                  placeholder="Write your message here ..."
                 ></textarea>
               </div>
-              <div className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  Button
-                </button>
+              <div className="p-3 w-full">
+                <a
+                  href="#"
+                  class="flex items-center justify-center px-4 py-2 border border-transparent text-lg font-bold rounded-md text-white bg-green-600 hover:bg-green-500 focus:outline-none focus:border-green-700 focus:shadow-outline-indigo active:bg-green-700 transition ease-in-out duration-150"
+                >
+                  Send
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
       <footer className="flex flex-col justify-between items-center px-6 py-2 bg-gray-100 sm:flex-row">
-        <a
-          href="#"
-          className="text-md font-bold text-gray-700 hover:text-gray-400"
-        >
+        <h6 className="text-md font-bold text-gray-700 hover:text-gray-600">
           © 2020 - Alexandre Mouriec
-        </a>
+        </h6>
 
         <div className="flex -mx-2 text-gray-700">
           <a
