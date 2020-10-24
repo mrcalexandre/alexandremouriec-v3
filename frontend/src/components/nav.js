@@ -8,7 +8,7 @@ export default function Nav({ fixed }) {
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <Link
-            to=""
+            to="/"
             className="text-2xl font-bold leading-relaxed inline-block py-2 whitespace-no-wrap text-gray-900 hover:underline"
           >
             Alexandre Mouriec
