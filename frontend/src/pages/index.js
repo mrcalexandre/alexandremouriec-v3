@@ -2,7 +2,7 @@ import React from "react"
 import "../assets/css/main.css"
 import Hero from "../components/hero"
 import Nav from "../components/nav"
-import Experience from "../components/experience"
+import Projects from "../components/projects"
 
 export default function IndexPage() {
   return (
@@ -19,7 +19,7 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
-      <Experience />
+      <Projects />
     </>
   )
 }
