@@ -8,9 +8,9 @@ export default function Experience() {
         Experience
       </h1>
       <div className="text-center">
-        <div className="py-2 align-middle inline-block sm:px-6 lg:px-6">
-          <div className="shadow overflow-hidden rounded-lg">
-            <table className="min-w-full divide-y divide-gray-200">
+        <div className="py-8 w-5/6 align-middle inline-block sm:px-6 lg:px-6">
+          <div className="shadow-md overflow-hidden rounded-lg">
+            <table className="w-full divide-y divide-gray-200">
               <thead>
                 <tr className="border-b-2 border-gray-50 bg-white">
                   <th className="px-6 py-3 text-center text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
@@ -31,7 +31,7 @@ export default function Experience() {
                       <div className="flex-shrink-0 h-12 w-12">
                         <img
                           className="h-12 w-12 rounded-full"
-                          src="https://cdn.dribbble.com/users/961794/screenshots/13592369/image.png"
+                          src="https://w7.pngwing.com/pngs/343/183/png-transparent-question-mark-decal-emoji-question-mark-social-media-information-text-messaging-hollow-question-mark-angle-text-logo.png"
                           alt=""
                         />
                       </div>

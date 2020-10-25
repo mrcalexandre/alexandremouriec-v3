@@ -3,7 +3,7 @@ import "../assets/css/main.css"
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col justify-between items-center px-2 py-2 bg-gray-100 sm:flex-row">
+    <footer className="flex flex-col justify-between items-center px-4 py-2 bg-gray-100 sm:flex-row">
       <h6 className="text-md font-bold text-gray-700 hover:text-gray-600">
         © 2020 - Alexandre Mouriec
       </h6>
@@ -14,7 +14,7 @@ export default function Footer() {
           title="Twitter"
           target="_blank"
           rel="noopener noreferrer"
-          className="py-3 px-3"
+          className="py-3 px-3 hover:text-teal-400"
         >
           <svg
             stroke="currentColor"
@@ -35,7 +35,7 @@ export default function Footer() {
           title="Linkedin"
           target="_blank"
           rel="noopener noreferrer"
-          className="mx-2 py-3 px-3"
+          className="mx-2 py-3 px-3 hover:text-teal-400"
         >
           <svg
             stroke="currentColor"
@@ -58,7 +58,7 @@ export default function Footer() {
           title="GitHub"
           target="_blank"
           rel="noopener noreferrer"
-          className="py-3 px-3"
+          className="py-3 px-3 hover:text-teal-400"
         >
           <svg
             stroke="currentColor"

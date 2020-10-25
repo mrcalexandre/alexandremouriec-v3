@@ -3,7 +3,7 @@ import "../assets/css/main.css"
 
 export default function Contact() {
   return (
-    <div className="container px-6 py-20 mx-auto">
+    <div className="container px-5 py-8 mx-auto">
       <div className="flex flex-col text-center w-full mb-6">
         <h1 className="text-4xl text-center tracking-tight leading-10 font-extrabold text-gray-900 sm:text-2xl sm:leading-none md:text-4xl mt-12">
           Contact Me
