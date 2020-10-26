@@ -4,22 +4,22 @@ import "../assets/css/main.css"
 export default function Experience() {
   return (
     <div className="flex flex-col">
-      <h1 className="text-4xl text-center tracking-tight leading-10 font-extrabold text-gray-900 sm:text-2xl sm:leading-none md:text-4xl mt-12 mb-4">
+      <h1 className="mt-12 mb-4 text-4xl font-extrabold leading-10 tracking-tight text-center text-gray-900 sm:text-2xl sm:leading-none md:text-4xl">
         Experience
       </h1>
       <div className="text-center">
-        <div className="py-8 w-5/6 align-middle inline-block sm:px-6 lg:px-6">
-          <div className="shadow-md overflow-hidden rounded-lg">
+        <div className="inline-block w-5/6 py-8 align-middle sm:px-6 lg:px-6">
+          <div className="overflow-hidden rounded-lg shadow-md">
             <table className="w-full divide-y divide-gray-200">
               <thead>
-                <tr className="border-b-2 border-gray-50 bg-white">
-                  <th className="px-6 py-3 text-center text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                <tr className="bg-white border-b-2 border-gray-50">
+                  <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-center text-gray-500 uppercase">
                     Role
                   </th>
-                  <th className="px-6 py-3 text-center text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                  <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-center text-gray-500 uppercase">
                     Description
                   </th>
-                  <th className="px-6 py-3 text-center text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                  <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-center text-gray-500 uppercase">
                     Dates
                   </th>
                 </tr>
@@ -28,25 +28,25 @@ export default function Experience() {
                 <tr className="hover:bg-gray-100 hover:shadow-md">
                   <td className="px-6 py-4 whitespace-no-wrap">
                     <div className="flex items-center">
-                      <div className="flex-shrink-0 h-12 w-12">
+                      <div className="flex-shrink-0 w-12 h-12">
                         <img
-                          className="h-12 w-12 rounded-full"
+                          className="w-12 h-12 rounded-full"
                           src="https://w7.pngwing.com/pngs/343/183/png-transparent-question-mark-decal-emoji-question-mark-social-media-information-text-messaging-hollow-question-mark-angle-text-logo.png"
                           alt=""
                         />
                       </div>
                       <div className="ml-4">
-                        <div className="text-md leading-5 text-gray-900 font-semibold">
+                        <div className="font-semibold leading-5 text-gray-900 text-md">
                           Frontend/Full Stack Engineer
                         </div>
-                        <div className="text-md text-left leading-5 font-medium text-gray-500">
+                        <div className="font-medium leading-5 text-left text-gray-500 text-md">
                           Your Company
                         </div>
                       </div>
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-no-wrap">
-                    <div className="text-md font-bold leading-5 text-gray-700">
+                    <div className="font-bold leading-5 text-gray-700 text-md">
                       Working at your exciting company in London
                       <span role="img" aria-label="uk-flag">
                         🇬🇧
@@ -54,7 +54,7 @@ export default function Experience() {
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-no-wrap">
-                    <span className="px-4 py-1 inline-flex text-md leading-5 font-semibold rounded-full bg-teal-100 text-teal-800">
+                    <span className="inline-flex px-4 py-1 font-semibold leading-5 text-teal-800 bg-teal-100 rounded-full text-md">
                       Now
                     </span>
                   </td>
@@ -62,30 +62,30 @@ export default function Experience() {
                 <tr className="hover:bg-gray-100 hover:shadow-md">
                   <td className="px-6 py-4 whitespace-no-wrap">
                     <div className="flex items-center">
-                      <div className="flex-shrink-0 h-12 w-12">
+                      <div className="flex-shrink-0 w-12 h-12">
                         <img
-                          className="h-12 w-12 rounded-full"
+                          className="w-12 h-12 rounded-full"
                           src="https://cdn.dribbble.com/users/961794/screenshots/13592369/image.png"
                           alt=""
                         />
                       </div>
                       <div className="ml-4">
-                        <div className="text-md leading-5 text-gray-900 font-semibold">
+                        <div className="font-semibold leading-5 text-gray-900 text-md">
                           Frontend Intern
                         </div>
-                        <div className="text-md text-left leading-5 font-medium text-gray-500">
+                        <div className="font-medium leading-5 text-left text-gray-500 text-md">
                           Getro
                         </div>
                       </div>
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-no-wrap">
-                    <div className="text-md leading-5 text-gray-700">
+                    <div className="leading-5 text-gray-700 text-md">
                       Helped with the rebuild of Getro Network in React
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-no-wrap">
-                    <span className="px-2 inline-flex text-sm leading-5 text-gray-500 font-semibold">
+                    <span className="inline-flex px-2 text-sm font-semibold leading-5 text-gray-500">
                       April 2019 - August 2019
                     </span>
                   </td>
@@ -93,30 +93,30 @@ export default function Experience() {
                 <tr className="hover:bg-gray-100 hover:shadow-md">
                   <td className="px-6 py-4 whitespace-no-wrap">
                     <div className="flex items-center">
-                      <div className="flex-shrink-0 h-12 w-12">
+                      <div className="flex-shrink-0 w-12 h-12">
                         <img
-                          className="h-12 w-12 rounded-full"
+                          className="w-12 h-12 rounded-full"
                           src="https://cdn.dribbble.com/users/961794/screenshots/13592369/image.png"
                           alt=""
                         />
                       </div>
                       <div className="ml-4">
-                        <div className="text-md leading-5 text-gray-900 font-semibold">
+                        <div className="font-semibold leading-5 text-gray-900 text-md">
                           Frontend Intern
                         </div>
-                        <div className="text-md text-left leading-5 font-medium text-gray-500">
+                        <div className="font-medium leading-5 text-left text-gray-500 text-md">
                           Getro
                         </div>
                       </div>
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-no-wrap">
-                    <div className="text-md leading-5 text-gray-700">
+                    <div className="leading-5 text-gray-700 text-md">
                       Helped with the rebuild of Getro Network in React
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-no-wrap">
-                    <span className="px-2 inline-flex text-sm leading-5 text-gray-500 font-semibold">
+                    <span className="inline-flex px-2 text-sm font-semibold leading-5 text-gray-500">
                       April 2019 - August 2019
                     </span>
                   </td>

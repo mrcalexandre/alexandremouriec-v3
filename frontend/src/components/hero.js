@@ -5,11 +5,11 @@ export default function Hero() {
   return (
     <>
       <img
-        className="mx-auto h-48 w-auto rounded-full shadow-md"
+        className="w-auto h-48 mx-auto rounded-full shadow-md"
         src="/icons/AlexandreMouriec.png"
         alt="Alexandre Mouriec"
       />
-      <h1 className="sm:text-2xl text-3xl text-center tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none md:text-3xl mt-6 transition-transform duration-500 transform hover:scale-110">
+      <h1 className="mt-6 text-3xl font-extrabold leading-10 tracking-tight text-center text-gray-900 transition-transform duration-500 transform sm:text-2xl sm:leading-none md:text-3xl hover:scale-110">
         Looking for a Full-Stack/Frontend role in London{"  "}
         <span role="img" aria-label="uk-flag">
           🇬🇧
@@ -21,7 +21,7 @@ export default function Hero() {
           title="Twitter"
           target="_blank"
           rel="noopener noreferrer"
-          className="shadow-md hover:shadow-xl bg-color-twitter py-3 px-3 rounded-full"
+          className="px-3 py-3 rounded-full shadow-md hover:shadow-xl bg-color-twitter"
         >
           <svg
             stroke="white"
@@ -42,7 +42,7 @@ export default function Hero() {
           title="Linkedin"
           target="_blank"
           rel="noopener noreferrer"
-          className="shadow-md hover:shadow-xl bg-color-linkedin mx-4 py-3 px-3 rounded-full"
+          className="px-3 py-3 mx-4 rounded-full shadow-md hover:shadow-xl bg-color-linkedin"
         >
           <svg
             stroke="white"
@@ -65,7 +65,7 @@ export default function Hero() {
           title="GitHub"
           target="_blank"
           rel="noopener noreferrer"
-          className="shadow-md hover:shadow-xl bg-color-github py-3 px-3 rounded-full"
+          className="px-3 py-3 rounded-full shadow-md hover:shadow-xl bg-color-github"
         >
           <svg
             stroke="white"

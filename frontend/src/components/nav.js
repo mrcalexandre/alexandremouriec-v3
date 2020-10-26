@@ -4,17 +4,17 @@ import { Link } from "gatsby"
 export default function Nav({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false)
   return (
-    <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg mb-3">
-      <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-        <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+    <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 mb-3 navbar-expand-lg">
+      <div className="container flex flex-wrap items-center justify-between px-4 mx-auto">
+        <div className="relative flex justify-between w-full lg:w-auto lg:static lg:block lg:justify-start">
           <Link
             to="/"
-            className="text-2xl font-bold leading-relaxed inline-block py-2 whitespace-no-wrap text-gray-900 hover:underline"
+            className="inline-block py-2 text-2xl font-bold leading-relaxed text-gray-900 whitespace-no-wrap hover:underline"
           >
             Alexandre Mouriec
           </Link>
           <button
-            className="text-white text-xl px-3 py-1 border border-none bg-transparent block lg:hidden outline-none focus:outline-none"
+            className="block px-3 py-1 text-xl text-white bg-transparent border border-none outline-none lg:hidden focus:outline-none"
             type="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
@@ -41,11 +41,11 @@ export default function Nav({ fixed }) {
             (navbarOpen ? " flex" : " hidden")
           }
         >
-          <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <ul className="flex flex-col list-none lg:flex-row lg:ml-auto">
             <li className="nav-item">
               <Link
                 to="#hire"
-                className="px-3 py-2 flex items-center text-xl font-bold rounded-md text-gray-900 hover:bg-gray-200"
+                className="flex items-center px-3 py-2 text-xl font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
                 Hire Me
                 <div class="flex relative top-0 right-0 mr-2 -mt-4">
@@ -59,7 +59,7 @@ export default function Nav({ fixed }) {
             <li className="nav-item">
               <Link
                 to="#about"
-                className="px-3 py-2 flex items-center text-xl font-bold rounded-md text-gray-900 hover:bg-gray-200"
+                className="flex items-center px-3 py-2 text-xl font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
                 <span className="mx-1">About</span>
               </Link>
@@ -68,7 +68,7 @@ export default function Nav({ fixed }) {
             <li className="nav-item">
               <Link
                 to="#projects"
-                className="px-3 py-2 flex items-center text-xl font-bold rounded-md text-gray-900 hover:bg-gray-200"
+                className="flex items-center px-3 py-2 text-xl font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
                 <span className="mx-1">Projects</span>
               </Link>
@@ -76,7 +76,7 @@ export default function Nav({ fixed }) {
             <li className="nav-item">
               <Link
                 to="#contact"
-                className="px-3 py-2 flex items-center text-xl font-bold rounded-md text-gray-900 hover:bg-gray-200"
+                className="flex items-center px-3 py-2 text-xl font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
                 <span className="mx-1">Contact</span>
               </Link>
