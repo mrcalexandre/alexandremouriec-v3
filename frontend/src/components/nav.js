@@ -48,11 +48,11 @@ export default function Nav({ fixed }) {
                 className="flex items-center px-3 py-2 text-xl font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
                 Hire Me
-                <div class="flex relative top-0 right-0 mr-2 -mt-4">
-                  <span class="absolute inline-flex animate-ping">
-                    <span class="inline-flex rounded-full h-2 w-2 bg-pink-400 opacity-75"></span>
+                <div className="relative top-0 right-0 flex mr-2 -mt-4">
+                  <span className="absolute inline-flex animate-ping">
+                    <span className="inline-flex w-2 h-2 bg-pink-400 rounded-full opacity-75"></span>
                   </span>
-                  <span class="relative inline-flex rounded-full h-2 w-2 bg-pink-500"></span>
+                  <span className="relative inline-flex w-2 h-2 bg-pink-500 rounded-full"></span>
                 </div>
               </Link>
             </li>

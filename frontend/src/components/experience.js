@@ -36,17 +36,17 @@ export default function Experience() {
                         />
                       </div>
                       <div className="ml-4">
-                        <div className="font-semibold leading-5 text-gray-900 text-md">
+                        <div className="font-semibold leading-5 text-gray-900 text-md sm:text-sm">
                           Frontend/Full Stack Engineer
                         </div>
-                        <div className="font-medium leading-5 text-left text-gray-500 text-md">
+                        <div className="font-medium leading-5 text-left text-gray-500 text-md sm:text-sm">
                           Your Company
                         </div>
                       </div>
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-no-wrap">
-                    <div className="font-bold leading-5 text-gray-700 text-md">
+                    <div className="font-bold leading-5 text-gray-700 text-md sm:text-sm">
                       Working at your exciting company in London
                       <span role="img" aria-label="uk-flag">
                         🇬🇧
@@ -54,7 +54,7 @@ export default function Experience() {
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-no-wrap">
-                    <span className="inline-flex px-4 py-1 font-semibold leading-5 text-teal-800 bg-teal-100 rounded-full text-md">
+                    <span className="inline-flex px-4 py-1 font-semibold leading-5 text-teal-800 bg-teal-100 rounded-full text-md sm:text-sm">
                       Now
                     </span>
                   </td>
@@ -70,17 +70,17 @@ export default function Experience() {
                         />
                       </div>
                       <div className="ml-4">
-                        <div className="font-semibold leading-5 text-gray-900 text-md">
+                        <div className="font-semibold leading-5 text-gray-900 text-md sm:text-sm">
                           Frontend Intern
                         </div>
-                        <div className="font-medium leading-5 text-left text-gray-500 text-md">
+                        <div className="font-medium leading-5 text-left text-gray-500 text-md sm:text-sm">
                           Getro
                         </div>
                       </div>
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-no-wrap">
-                    <div className="leading-5 text-gray-700 text-md">
+                    <div className="leading-5 text-gray-700 text-md sm:text-sm">
                       Helped with the rebuild of Getro Network in React
                     </div>
                   </td>
@@ -101,17 +101,17 @@ export default function Experience() {
                         />
                       </div>
                       <div className="ml-4">
-                        <div className="font-semibold leading-5 text-gray-900 text-md">
+                        <div className="font-semibold leading-5 text-gray-900 text-md sm:text-sm">
                           Frontend Intern
                         </div>
-                        <div className="font-medium leading-5 text-left text-gray-500 text-md">
+                        <div className="font-medium leading-5 text-left text-gray-500 text-md sm:text-sm">
                           Getro
                         </div>
                       </div>
                     </div>
                   </td>
                   <td className="px-6 py-4 whitespace-no-wrap">
-                    <div className="leading-5 text-gray-700 text-md">
+                    <div className="leading-5 text-gray-700 text-md sm:text-sm">
                       Helped with the rebuild of Getro Network in React
                     </div>
                   </td>
