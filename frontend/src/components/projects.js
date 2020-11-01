@@ -3,8 +3,8 @@ import "../assets/css/main.css"
 
 export default function Projects() {
   return (
-    <section className="text-gray-700 body-font">
-      <h1 className="mt-6 mb-6 text-4xl font-extrabold leading-10 tracking-tight text-center text-gray-900 sm:text-2xl sm:leading-none md:text-4xl">
+    <section className="px-8 text-gray-700 body-font">
+      <h1 className="mt-6 mb-6 text-3xl font-extrabold leading-10 tracking-tight text-center text-gray-900 lg:text-4xl sm:text-2xl sm:leading-none md:text-4xl">
         Projects
       </h1>
       <div className="container px-5 py-8 mx-auto">

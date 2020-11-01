@@ -9,7 +9,7 @@ export default function Nav({ fixed }) {
         <div className="relative flex justify-between w-full lg:w-auto lg:static lg:block lg:justify-start">
           <Link
             to="/"
-            className="inline-block py-2 text-2xl font-bold leading-relaxed text-gray-900 whitespace-no-wrap hover:underline"
+            className="inline-block py-2 text-xl font-bold leading-relaxed text-gray-900 whitespace-no-wrap hover:underline"
           >
             Alexandre Mouriec
           </Link>
@@ -45,7 +45,7 @@ export default function Nav({ fixed }) {
             <li className="nav-item">
               <Link
                 to="#hire"
-                className="flex items-center px-3 py-2 text-xl font-bold text-gray-900 rounded-md hover:bg-gray-200"
+                className="flex items-center px-3 py-2 text-lg font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
                 Hire Me
                 <div className="relative top-0 right-0 flex mr-2 -mt-4">
@@ -59,7 +59,7 @@ export default function Nav({ fixed }) {
             <li className="nav-item">
               <Link
                 to="#about"
-                className="flex items-center px-3 py-2 text-xl font-bold text-gray-900 rounded-md hover:bg-gray-200"
+                className="flex items-center px-3 py-2 text-lg font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
                 <span className="mx-1">About</span>
               </Link>
@@ -68,7 +68,7 @@ export default function Nav({ fixed }) {
             <li className="nav-item">
               <Link
                 to="#projects"
-                className="flex items-center px-3 py-2 text-xl font-bold text-gray-900 rounded-md hover:bg-gray-200"
+                className="flex items-center px-3 py-2 text-lg font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
                 <span className="mx-1">Projects</span>
               </Link>
@@ -76,7 +76,7 @@ export default function Nav({ fixed }) {
             <li className="nav-item">
               <Link
                 to="#contact"
-                className="flex items-center px-3 py-2 text-xl font-bold text-gray-900 rounded-md hover:bg-gray-200"
+                className="flex items-center px-3 py-2 text-lg font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
                 <span className="mx-1">Contact</span>
               </Link>

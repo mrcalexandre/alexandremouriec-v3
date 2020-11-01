@@ -15,7 +15,7 @@ export default function IndexPage() {
         <div className="mx-4 align-middle lg:w-1/2 sm:w-full">
           <div>
             <Hero />
-            <p className="flex mx-auto mt-4 font-mono leading-9 text-center text-gray-600 bg-gray-100 sm:text-sm sm:mx-auto lg:text-lg ">
+            <p className="flex mx-4 mt-4 font-mono text-xs leading-9 text-center text-gray-600 bg-gray-100 lg:text-md">
               Hi, I am Alexandre, Full Stack Developer and recent graduate in
               Computer Science and Web Development from the IUT of Lannion.
               Full-time Curious, I am always excited to discover a new industry
@@ -27,7 +27,7 @@ export default function IndexPage() {
           </div>
           <a
             href="https://alexandremouriec.com"
-            className="flex justify-center py-2 mx-auto mt-4 text-lg font-bold text-center text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-lg lg:w-1/4 sm:w-1/2 hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
+            className="flex justify-center w-1/2 py-2 mx-auto mt-4 text-lg font-bold text-center text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-lg lg:w-1/4 hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
           >
             Learn More
           </a>

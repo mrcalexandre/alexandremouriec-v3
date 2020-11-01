@@ -3,9 +3,9 @@ import "../assets/css/main.css"
 
 export default function Contact() {
   return (
-    <div className="container px-5 py-8 mx-auto">
+    <div className="container px-5 pb-8 mx-auto">
       <div className="flex flex-col w-full mb-6 text-center">
-        <h1 className="mt-12 text-4xl font-extrabold leading-10 tracking-tight text-center text-gray-900 sm:text-2xl sm:leading-none md:text-4xl">
+        <h1 className="mt-12 text-3xl font-extrabold leading-10 tracking-tight text-center text-gray-900 lg:text-4xl sm:leading-none">
           Contact Me
         </h1>
       </div>

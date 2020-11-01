@@ -4,7 +4,7 @@ import "../assets/css/main.css"
 export default function Experience() {
   return (
     <div className="flex flex-col">
-      <h1 className="mt-12 mb-4 text-4xl font-extrabold leading-10 tracking-tight text-center text-gray-900 sm:text-2xl sm:leading-none md:text-4xl">
+      <h1 className="mt-12 mb-4 text-3xl font-extrabold leading-10 tracking-tight text-center text-gray-900 lg:text-4xl sm:text-2xl sm:leading-none md:text-4xl">
         Experience
       </h1>
       <div className="text-center">

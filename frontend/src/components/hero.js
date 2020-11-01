@@ -5,11 +5,11 @@ export default function Hero() {
   return (
     <>
       <img
-        className="w-auto h-48 mx-auto rounded-full shadow-md"
+        className="w-auto h-24 mx-auto rounded-full shadow-md lg:h-32 sm:h-24"
         src="/icons/AlexandreMouriec.png"
         alt="Alexandre Mouriec"
       />
-      <h1 className="mt-6 text-3xl font-extrabold leading-10 tracking-tight text-center text-gray-900 transition-transform duration-500 transform sm:text-2xl sm:leading-none md:text-3xl hover:scale-110">
+      <h1 className="mt-6 text-xl font-extrabold leading-10 tracking-tight text-center text-gray-900 transition-transform duration-500 transform sm:text-xl sm:leading-none lg:text-2xl hover:scale-110">
         Looking for a Full-Stack/Frontend role in London{"  "}
         <span role="img" aria-label="uk-flag">
           🇬🇧
