@@ -9,7 +9,7 @@ export default function Experience() {
       </h1>
       <div className="text-center">
         <div className="inline-block w-5/6 py-8 align-middle sm:px-6 lg:px-6">
-          <div className="overflow-hidden rounded-lg shadow-md">
+          <div className="overflow-hidden border rounded-lg shadow-sm">
             <table className="w-full divide-y divide-gray-200">
               <thead>
                 <tr className="bg-white border-b-2 border-gray-50">
@@ -25,7 +25,7 @@ export default function Experience() {
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
-                <tr className="hover:bg-gray-100 hover:shadow-md">
+                <tr className="hover:bg-gray-100 hover:shadow-sm">
                   <td className="px-6 py-4 whitespace-no-wrap">
                     <div className="flex items-center">
                       <div className="flex-shrink-0 w-12 h-12">
@@ -59,7 +59,7 @@ export default function Experience() {
                     </span>
                   </td>
                 </tr>
-                <tr className="hover:bg-gray-100 hover:shadow-md">
+                <tr className="hover:bg-gray-100 hover:shadow-sm">
                   <td className="px-6 py-4 whitespace-no-wrap">
                     <div className="flex items-center">
                       <div className="flex-shrink-0 w-12 h-12">
@@ -90,7 +90,7 @@ export default function Experience() {
                     </span>
                   </td>
                 </tr>
-                <tr className="hover:bg-gray-100 hover:shadow-md">
+                <tr className="hover:bg-gray-100 hover:shadow-sm">
                   <td className="px-6 py-4 whitespace-no-wrap">
                     <div className="flex items-center">
                       <div className="flex-shrink-0 w-12 h-12">

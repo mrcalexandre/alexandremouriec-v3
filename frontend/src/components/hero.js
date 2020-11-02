@@ -10,10 +10,11 @@ export default function Hero() {
         alt="Alexandre Mouriec"
       />
       <h1 className="mt-6 text-xl font-extrabold leading-10 tracking-tight text-center text-gray-900 transition-transform duration-500 transform sm:text-xl sm:leading-none lg:text-2xl hover:scale-110">
-        Looking for a Full-Stack/Frontend role in London{"  "}
+        {/* Looking for a Full-Stack/Frontend role in London{"  "}
         <span role="img" aria-label="uk-flag">
           🇬🇧
-        </span>
+        </span> */}
+        Full-Stack Developer and Full-Time Curious
       </h1>
       <div className="flex flex-row justify-center mt-4">
         <a

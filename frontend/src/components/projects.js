@@ -3,14 +3,14 @@ import "../assets/css/main.css"
 
 export default function Projects() {
   return (
-    <section className="px-8 text-gray-700 body-font">
+    <section className="px-8 text-gray-700 sm:px-8 lg:px-32 body-font">
       <h1 className="mt-6 mb-6 text-3xl font-extrabold leading-10 tracking-tight text-center text-gray-900 lg:text-4xl sm:text-2xl sm:leading-none md:text-4xl">
         Projects
       </h1>
       <div className="container px-5 py-8 mx-auto">
         <div className="flex flex-wrap -m-10">
           <div className="p-4 mx-auto md:w-1/3 sm:w-full sm:mx-auto">
-            <div className="flex flex-col h-full p-8 bg-white border rounded-lg shadow-md hover:shadow-xl">
+            <div className="flex flex-col h-full p-8 bg-white border rounded-lg shadow-sm hover:shadow-lg">
               <div className="flex items-center mb-1">
                 <img
                   src="https://s3-cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/106/100/original/Getro_logo_-_horizontal_-_blue.png?1593869251"
@@ -82,14 +82,14 @@ export default function Projects() {
               </div>
               <a
                 href="https://alexandremouriec.com"
-                className="flex justify-center px-24 py-2 text-lg font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-lg hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
+                className="flex justify-center px-24 py-2 text-lg font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-md hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
               >
                 View
               </a>
             </div>
           </div>
           <div className="p-4 md:w-1/3 sm:w-full sm:mx-auto">
-            <div className="flex flex-col h-full p-8 bg-white border rounded-lg shadow-md hover:shadow-xl">
+            <div className="flex flex-col h-full p-8 bg-white border rounded-lg shadow-sm hover:shadow-lg">
               <div className="flex items-center mb-1">
                 <img
                   src="https://s3-cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/106/100/original/Getro_logo_-_horizontal_-_blue.png?1593869251"
@@ -161,14 +161,14 @@ export default function Projects() {
               </div>
               <a
                 href="https://alexandremouriec.com"
-                className="flex justify-center px-24 py-2 text-lg font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-lg hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
+                className="flex justify-center px-24 py-2 text-lg font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-md hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
               >
                 View
               </a>
             </div>
           </div>
           <div className="p-4 md:w-1/3">
-            <div className="flex flex-col h-full p-8 bg-white border rounded-lg shadow-md hover:shadow-xl">
+            <div className="flex flex-col h-full p-8 bg-white border rounded-lg shadow-sm hover:shadow-lg">
               <div className="flex items-center mb-1">
                 <img
                   src="https://s3-cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/106/100/original/Getro_logo_-_horizontal_-_blue.png?1593869251"
@@ -240,7 +240,7 @@ export default function Projects() {
               </div>
               <a
                 href="https://alexandremouriec.com"
-                className="flex justify-center px-24 py-2 text-lg font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-lg hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
+                className="flex justify-center px-24 py-2 text-lg font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-md hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-lg"
               >
                 View
               </a>

@@ -14,7 +14,7 @@
     "fs-extra": "^9.0.1",
     "knex": "<0.20.0",
     "lodash": "^4.17.19",
-    "pg": "^8.4.1",
+    "pg": "^8.4.2",
     "sqlite3": "latest",
     "strapi": "^3.2.5",
     "strapi-admin": "^3.2.5",
