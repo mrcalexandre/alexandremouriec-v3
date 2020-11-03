@@ -7,24 +7,24 @@ export default function Projects() {
       <h1 className="mt-6 mb-6 text-3xl font-extrabold leading-10 tracking-tight text-center text-gray-900 lg:text-4xl sm:text-2xl sm:leading-none md:text-4xl">
         Projects
       </h1>
-      <div className="container px-5 py-8 mx-auto">
+      <div className="container px-5 py-6 mx-auto">
         <div className="flex flex-wrap -m-10">
           <div className="p-4 mx-auto md:w-1/3 sm:w-full sm:mx-auto">
             <div className="flex flex-col h-full p-8 bg-white border rounded-lg shadow-sm hover:shadow-lg">
               <div className="flex items-center mb-1">
                 <img
                   src="https://s3-cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/106/100/original/Getro_logo_-_horizontal_-_blue.png?1593869251"
-                  className="w-3/4 mx-auto my-8"
+                  className="w-3/4 mx-auto my-4"
                   alt="Getro"
                 />
               </div>
-              <h2 className="my-2 text-xl font-extrabold text-center text-gray-900 title-font">
+              <h2 className="my-2 font-extrabold text-center text-gray-900 text-md sm:text-md md:text-md lg:text-lg title-font">
                 Getro Network Rebuild
               </h2>
-              <hr className="px-6 py-3 bg-gray-50"></hr>
-              <div className="flex-grow mb-4">
+              <hr className="px-6 py-2 bg-gray-50"></hr>
+              <div className="flex-grow mb-2">
                 <ul>
-                  <li className="flex flex-row py-2 list-none">
+                  <li className="flex flex-row py-1 list-none sm:text-xs md:text-xs lg:text-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -42,7 +42,7 @@ export default function Projects() {
                     </svg>
                     Lorem Ipsum Lorem Ipsum Lorem Ipsum
                   </li>
-                  <li className="flex flex-row py-2 list-none">
+                  <li className="flex flex-row py-1 list-none sm:text-xs md:text-xs lg:text-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -60,7 +60,7 @@ export default function Projects() {
                     </svg>
                     Lorem Ipsum Lorem Ipsum Lorem Ipsum
                   </li>
-                  <li className="flex flex-row py-2 list-none">
+                  <li className="flex flex-row py-1 list-none sm:text-xs md:text-xs lg:text-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -82,28 +82,28 @@ export default function Projects() {
               </div>
               <a
                 href="https://alexandremouriec.com"
-                className="flex justify-center px-24 py-2 text-lg font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-md hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
+                className="flex justify-center py-2 font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-md px-auto text-md sm:text-md md:text-md lg:text-lg hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
               >
                 View
               </a>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 sm:w-full sm:mx-auto">
+          <div className="p-4 mx-auto md:w-1/3 sm:w-full sm:mx-auto">
             <div className="flex flex-col h-full p-8 bg-white border rounded-lg shadow-sm hover:shadow-lg">
               <div className="flex items-center mb-1">
                 <img
                   src="https://s3-cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/106/100/original/Getro_logo_-_horizontal_-_blue.png?1593869251"
-                  className="w-3/4 mx-auto my-8 "
+                  className="w-3/4 mx-auto my-4"
                   alt="Getro"
                 />
               </div>
-              <h2 className="my-2 text-xl font-extrabold text-center text-gray-900 title-font">
+              <h2 className="my-2 font-extrabold text-center text-gray-900 text-md sm:text-md md:text-md lg:text-lg title-font">
                 Getro Network Rebuild
               </h2>
-              <hr className="px-6 py-3 bg-gray-50"></hr>
-              <div className="flex-grow mb-4">
+              <hr className="px-6 py-2 bg-gray-50"></hr>
+              <div className="flex-grow mb-2">
                 <ul>
-                  <li className="flex flex-row py-2 list-none">
+                  <li className="flex flex-row py-1 list-none sm:text-xs md:text-xs lg:text-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -121,7 +121,7 @@ export default function Projects() {
                     </svg>
                     Lorem Ipsum Lorem Ipsum Lorem Ipsum
                   </li>
-                  <li className="flex flex-row py-2 list-none">
+                  <li className="flex flex-row py-1 list-none sm:text-xs md:text-xs lg:text-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -139,7 +139,7 @@ export default function Projects() {
                     </svg>
                     Lorem Ipsum Lorem Ipsum Lorem Ipsum
                   </li>
-                  <li className="flex flex-row py-2 list-none">
+                  <li className="flex flex-row py-1 list-none sm:text-xs md:text-xs lg:text-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -161,28 +161,28 @@ export default function Projects() {
               </div>
               <a
                 href="https://alexandremouriec.com"
-                className="flex justify-center px-24 py-2 text-lg font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-md hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
+                className="flex justify-center py-2 font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-md px-auto text-md sm:text-md md:text-md lg:text-lg hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
               >
                 View
               </a>
             </div>
           </div>
-          <div className="p-4 md:w-1/3">
+          <div className="p-4 mx-auto md:w-1/3 sm:w-full sm:mx-auto">
             <div className="flex flex-col h-full p-8 bg-white border rounded-lg shadow-sm hover:shadow-lg">
               <div className="flex items-center mb-1">
                 <img
                   src="https://s3-cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/106/100/original/Getro_logo_-_horizontal_-_blue.png?1593869251"
-                  className="w-3/4 mx-auto my-8 "
+                  className="w-3/4 mx-auto my-4"
                   alt="Getro"
                 />
               </div>
-              <h2 className="my-2 text-xl font-extrabold text-center text-gray-900 title-font">
+              <h2 className="my-2 font-extrabold text-center text-gray-900 text-md sm:text-md md:text-md lg:text-lg title-font">
                 Getro Network Rebuild
               </h2>
-              <hr className="px-6 py-3 bg-gray-50"></hr>
-              <div className="flex-grow mb-4">
+              <hr className="px-6 py-2 bg-gray-50"></hr>
+              <div className="flex-grow mb-2">
                 <ul>
-                  <li className="flex flex-row py-2 list-none">
+                  <li className="flex flex-row py-1 list-none sm:text-xs md:text-xs lg:text-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -200,7 +200,7 @@ export default function Projects() {
                     </svg>
                     Lorem Ipsum Lorem Ipsum Lorem Ipsum
                   </li>
-                  <li className="flex flex-row py-2 list-none">
+                  <li className="flex flex-row py-1 list-none sm:text-xs md:text-xs lg:text-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -218,7 +218,7 @@ export default function Projects() {
                     </svg>
                     Lorem Ipsum Lorem Ipsum Lorem Ipsum
                   </li>
-                  <li className="flex flex-row py-2 list-none">
+                  <li className="flex flex-row py-1 list-none sm:text-xs md:text-xs lg:text-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -240,7 +240,7 @@ export default function Projects() {
               </div>
               <a
                 href="https://alexandremouriec.com"
-                className="flex justify-center px-24 py-2 text-lg font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-md hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-lg"
+                className="flex justify-center py-2 font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-md px-auto text-md sm:text-md md:text-md lg:text-lg hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
               >
                 View
               </a>

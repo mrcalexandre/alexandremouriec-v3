@@ -36,7 +36,7 @@ export default function Contact() {
           </div>
           <div className="w-full p-3" data-children-count="1">
             <textarea
-              rows="10"
+              rows="8"
               name="message"
               className="block w-full px-3 py-3 mt-1 transition duration-150 ease-in-out border border-gray-300 rounded-md shadow-sm form-textarea focus:outline-none focus:shadow-outline-teal focus:border-teal-400 sm:text-sm sm:leading-5"
               placeholder="Write your message here ..."
@@ -46,7 +46,7 @@ export default function Contact() {
             <input
               type="submit"
               value="Send"
-              className="flex justify-center px-24 py-2 text-lg font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-lg hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal"
+              className="flex justify-center px-24 py-2 text-lg font-bold text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-lg cursor-pointer hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal"
             ></input>
           </div>
         </form>

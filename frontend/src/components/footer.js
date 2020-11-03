@@ -14,7 +14,7 @@ export default function Footer() {
           title="Twitter"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-3 py-3 hover:text-teal-400"
+          className="px-3 py-3 rounded-full hover:bg-gray-200"
         >
           <svg
             stroke="currentColor"
@@ -35,7 +35,7 @@ export default function Footer() {
           title="Linkedin"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-3 py-3 mx-2 hover:text-teal-400"
+          className="px-3 py-3 mx-2 rounded-full hover:bg-gray-200"
         >
           <svg
             stroke="currentColor"
@@ -58,7 +58,7 @@ export default function Footer() {
           title="GitHub"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-3 py-3 hover:text-teal-400"
+          className="px-3 py-3 rounded-full hover:bg-gray-200"
         >
           <svg
             stroke="currentColor"

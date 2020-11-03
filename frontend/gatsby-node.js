@@ -3,6 +3,13 @@ exports.createPages = async ({ graphql, actions }) => {
   const result = await graphql(
     `
       {
+        experiences: allStrapiExperience {
+          edges {
+            node {
+              strapiId
+            }
+          }
+        }
         articles: allStrapiArticle {
           edges {
             node {
@@ -60,24 +67,24 @@ module.exports.onCreateNode = async ({ node, actions, createNodeId }) => {
   const crypto = require(`crypto`)
 
   if (node.internal.type === "StrapiArticle") {
-      const newNode = {
-          id: createNodeId(`StrapiArticleContent-${node.id}`),
-          parent: node.id,
-          children: [],
-          internal: {
-              content: node.content || " ",
-              type: "StrapiArticleContent",
-              mediaType: "text/markdown",
-              contentDigest: crypto
-                  .createHash("md5")
-                  .update(node.content || " ")
-                  .digest("hex"),
-          },
-      };
-      actions.createNode(newNode);
-      actions.createParentChildLink({
-          parent: node,
-          child: newNode,
-      });
+    const newNode = {
+      id: createNodeId(`StrapiArticleContent-${node.id}`),
+      parent: node.id,
+      children: [],
+      internal: {
+        content: node.content || " ",
+        type: "StrapiArticleContent",
+        mediaType: "text/markdown",
+        contentDigest: crypto
+          .createHash("md5")
+          .update(node.content || " ")
+          .digest("hex"),
+      },
+    }
+    actions.createNode(newNode)
+    actions.createParentChildLink({
+      parent: node,
+      child: newNode,
+    })
   }
-};
+}
