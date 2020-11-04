@@ -2,10 +2,11 @@ import React from "react"
 import "../assets/css/main.css"
 
 export default function Footer() {
+  var date = "© " + new Date().getFullYear() + " - Alexandre Mouriec"
   return (
     <footer className="flex flex-col items-center justify-between px-4 py-2 bg-gray-100 sm:flex-row">
       <h6 className="font-bold text-gray-700 text-md hover:text-gray-600">
-        © 2020 - Alexandre Mouriec
+        {date}
       </h6>
 
       <div className="flex text-gray-700">

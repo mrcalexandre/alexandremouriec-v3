@@ -30,6 +30,23 @@ const IndexPage = () => (
             }
           }
         }
+        allStrapiProject {
+          edges {
+            node {
+              strapiId
+              name
+              logo {
+                childImageSharp {
+                  fluid(maxWidth: 200, maxHeight: 200) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
+
+              link
+            }
+          }
+        }
       }
     `}
     render={data => (
@@ -61,7 +78,7 @@ const IndexPage = () => (
           </div>
         </div>
         <Experiences experiences={data.allStrapiExperience.edges} />
-        <Projects />
+        <Projects projects={data.allStrapiProject.edges} />
         <Contact />
         <Footer />
       </main>

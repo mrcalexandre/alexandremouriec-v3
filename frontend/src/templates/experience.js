@@ -23,7 +23,7 @@ const Experience = ({ experience }) => {
         </div>
       </td>
       <td className="px-4 py-4 whitespace-no-wrap">
-        <div className="flex text-sm font-bold leading-5 text-left text-white sm:text-xs md:text-xs lg:text-md sm:text-white lg:text-gray-700">
+        <div className="flex font-bold leading-5 text-left text-white text-md sm:text-xs md:text-xs lg:text-md sm:text-white lg:text-gray-700">
           {experience.node.description}
         </div>
       </td>

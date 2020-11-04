@@ -10,6 +10,13 @@ exports.createPages = async ({ graphql, actions }) => {
             }
           }
         }
+        projects: allStrapiProject {
+          edges {
+            node {
+              strapiId
+            }
+          }
+        }
         articles: allStrapiArticle {
           edges {
             node {
