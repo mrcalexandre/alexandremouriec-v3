@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "bulletOne": {
+      "type": "string"
+    },
+    "bulletTwo": {
+      "type": "string"
+    },
+    "bulletThree": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

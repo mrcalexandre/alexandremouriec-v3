@@ -7,6 +7,7 @@ import Experiences from "../components/experiences"
 import Projects from "../components/projects"
 import Footer from "../components/footer"
 import { StaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 const IndexPage = () => (
   <StaticQuery
@@ -35,14 +36,16 @@ const IndexPage = () => (
             node {
               strapiId
               name
-              logo {
+              banner {
                 childImageSharp {
-                  fluid(maxWidth: 200, maxHeight: 200) {
+                  fluid(maxHeight: 120) {
                     ...GatsbyImageSharpFluid
                   }
                 }
               }
-
+              bulletOne
+              bulletTwo
+              bulletThree
               link
             }
           }
@@ -79,6 +82,12 @@ const IndexPage = () => (
         </div>
         <Experiences experiences={data.allStrapiExperience.edges} />
         <Projects projects={data.allStrapiProject.edges} />
+        <Link
+          to="/projects"
+          className="flex justify-center mt-8 font-bold text-teal-400 align-middle transition duration-150 ease-in-out hover:text-teal-300 hover:underline focus:outline-none focus:underline"
+        >
+          View all
+        </Link>
         <Contact />
         <Footer />
       </main>

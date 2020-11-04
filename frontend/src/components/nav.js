@@ -64,10 +64,9 @@ export default function Nav({ fixed }) {
                 <span className="mx-1">About</span>
               </Link>
             </li>
-
             <li className="nav-item">
               <Link
-                to="#projects"
+                to="/projects"
                 className="flex items-center px-3 py-2 text-lg font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
                 <span className="mx-1">Projects</span>
@@ -75,7 +74,7 @@ export default function Nav({ fixed }) {
             </li>
             <li className="nav-item">
               <Link
-                to="#contact"
+                to="/contact"
                 className="flex items-center px-3 py-2 text-lg font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
                 <span className="mx-1">Contact</span>
