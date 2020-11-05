@@ -2,10 +2,9 @@ import React from "react"
 import "../assets/css/main.css"
 import Hero from "../components/hero"
 import Contact from "../components/contact"
-import Nav from "../components/nav"
 import Experiences from "../components/experiences"
 import Projects from "../components/projects"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
 import { StaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
 
@@ -53,8 +52,7 @@ const IndexPage = () => (
       }
     `}
     render={data => (
-      <main className="bg-gray-100">
-        <Nav />
+      <Layout>
         <div className="flex items-center justify-center">
           <div className="mx-4 align-middle lg:w-1/2 sm:w-full">
             <div>
@@ -72,12 +70,28 @@ const IndexPage = () => (
                 </span>
               </p>
             </div>
-            <a
-              href="https://alexandremouriec.com"
+            <Link
+              to="/about"
               className="flex justify-center w-1/2 py-2 mx-auto mt-4 text-lg font-bold text-center text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-lg lg:w-1/4 hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
             >
-              Learn More
-            </a>
+              My resume{""}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={2}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="ml-2"
+              >
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+            </Link>
           </div>
         </div>
         <Experiences experiences={data.allStrapiExperience.edges} />
@@ -89,8 +103,7 @@ const IndexPage = () => (
           View all
         </Link>
         <Contact />
-        <Footer />
-      </main>
+      </Layout>
     )}
   />
 )

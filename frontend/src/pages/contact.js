@@ -1,14 +1,11 @@
 import React from "react"
-import Nav from "../components/nav"
 import Contact from "../components/contact"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
 
 const ContactPage = () => (
-  <main className="bg-gray-100">
-    <Nav />
+  <Layout>
     <Contact />
-    <Footer />
-  </main>
+  </Layout>
 )
 
 export default ContactPage

@@ -44,10 +44,10 @@ export default function Nav({ fixed }) {
           <ul className="flex flex-col list-none lg:flex-row lg:ml-auto">
             {/* <li className="nav-item">
               <Link
-                to="#contact"
+                to="#dashboard"
                 className="flex items-center px-3 py-2 text-lg font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
-                Hire Me
+                Dashboard
                 <div className="relative top-0 right-0 flex mr-2 -mt-4">
                   <span className="absolute inline-flex animate-ping">
                     <span className="inline-flex w-2 h-2 bg-pink-400 rounded-full opacity-75"></span>
@@ -58,7 +58,7 @@ export default function Nav({ fixed }) {
             </li> */}
             <li className="nav-item">
               <Link
-                to="#about"
+                to="/about"
                 className="flex items-center px-3 py-2 text-lg font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
                 <span className="mx-1">About</span>

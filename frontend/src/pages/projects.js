@@ -1,8 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Nav from "../components/nav"
 import Projects from "../components/projects"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
 
 const ProjectsPage = () => (
   <StaticQuery
@@ -30,11 +29,9 @@ const ProjectsPage = () => (
       }
     `}
     render={data => (
-      <main className="bg-gray-100">
-        <Nav />
+      <Layout>
         <Projects projects={data.allStrapiProject.edges} />
-        <Footer />
-      </main>
+      </Layout>
     )}
   />
 )
