@@ -71,7 +71,7 @@ const IndexPage = () => (
               </p>
             </div>
             <Link
-              to="/about"
+              to="Resume_Alexandre_Mouriec.pdf"
               className="flex justify-center w-1/2 py-2 mx-auto mt-4 text-lg font-bold text-center text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-lg lg:w-1/4 hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
             >
               My resume{""}

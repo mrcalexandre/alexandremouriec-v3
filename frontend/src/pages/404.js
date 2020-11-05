@@ -1,15 +1,12 @@
 import React from "react"
 
-import Nav from "../components/nav"
+import Layout from "../components/layout"
 import Contact from "../components/contact"
-import Footer from "../components/footer"
 
 const NotFoundPage = () => (
-  <>
-    <Nav />
+  <Layout>
     <Contact />
-    <Footer />
-  </>
+  </Layout>
 )
 
 export default NotFoundPage
