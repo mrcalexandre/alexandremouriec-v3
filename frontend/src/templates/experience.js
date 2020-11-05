@@ -12,7 +12,7 @@ const Experience = ({ experience }) => {
               className="w-12 h-12 rounded-full"
             />
           </div>
-          <div className="ml-4">
+          <div className="ml-4 mr-3">
             <div className="font-semibold leading-5 text-gray-900 text-md sm:text-sm">
               {experience.node.role}
             </div>

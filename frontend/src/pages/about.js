@@ -68,7 +68,7 @@ const AboutPage = () => (
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
         </div>
         <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-teal-500 text-white relative z-10 title-font font-medium text-sm">
-          1
+          5
         </div>
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
           <div class="flex-shrink-0 w-24 h-24 bg-teal-100 text-teal-500 rounded-full inline-flex items-center justify-center">
@@ -104,7 +104,7 @@ const AboutPage = () => (
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
         </div>
         <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-teal-500 text-white relative z-10 title-font font-medium text-sm">
-          2
+          4
         </div>
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
           <div class="flex-shrink-0 w-24 h-24 bg-teal-100 text-teal-500 rounded-full inline-flex items-center justify-center">
@@ -141,7 +141,7 @@ const AboutPage = () => (
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
         </div>
         <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-teal-500 text-white relative z-10 title-font font-medium text-sm">
-          4
+          3
         </div>
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
           <div class="flex-shrink-0 w-24 h-24 bg-teal-100 text-teal-500 rounded-full inline-flex items-center justify-center">
@@ -181,7 +181,7 @@ const AboutPage = () => (
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
         </div>
         <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-teal-500 text-white relative z-10 title-font font-medium text-sm">
-          5
+          2
         </div>
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
           <div class="flex-shrink-0 w-24 h-24 bg-teal-100 text-teal-500 rounded-full inline-flex items-center justify-center">
@@ -213,7 +213,7 @@ const AboutPage = () => (
               I joined a news blog to write about Apple and the jailbreak
               community. I then joined Stuffi for a few years where I wrote news
               articles, product reviews and buying guides about the Internet of
-              Things Quantified Self, and more ...
+              Things, Quantified Self, and more ...
             </p>
           </div>
         </div>
@@ -223,7 +223,7 @@ const AboutPage = () => (
           <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
         </div>
         <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-teal-500 text-white relative z-10 title-font font-medium text-sm">
-          6
+          1
         </div>
         <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
           <div class="flex-shrink-0 w-24 h-24 bg-teal-100 text-teal-500 rounded-full inline-flex items-center justify-center">
