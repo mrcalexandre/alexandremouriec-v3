@@ -1,7 +1,5 @@
 # Alexandre Mouriec's Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2ad8f110-3f05-4c02-a30b-94b7ec27a67b/deploy-status)](https://app.netlify.com/sites/alexandremouriec/deploys)
-
 This is the public repo of my portfolio, built with Gatsby, Tailwind CSS, Strapi, and deployed on Netlify.
 
 I used the Strapi Starter Gatsby Blog v2 as a starter to create my portfolio.
