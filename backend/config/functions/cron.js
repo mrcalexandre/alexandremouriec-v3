@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * Cron config that gives you an opportunity
@@ -11,17 +11,21 @@
  */
 
 module.exports = {
-  '*/1 * * * *': async () => {
+  "*/1 * * * *": async () => {
+    // Fetch projects to publish
+    const draftProjectsToPublish = await strapi.api.project.services.project.find(
+      {
+        status: "draft",
+        publishedAt_lt: new Date(),
+      }
+    );
 
-    // Fetch articles to publish
-    const draftArticlesToPublish = await strapi.api.article.services.article.find({
-      status: 'draft',
-      publishedAt_lt: new Date(),
+    // Update status of projects
+    draftProjectsToPublish.forEach(async (projects) => {
+      await strapi.api.project.services.project.update(
+        { id: project.id },
+        { status: "published" }
+      );
     });
-
-    // Update status of articles
-    draftArticlesToPublish.forEach(async article => {
-      await strapi.api.article.services.article.update({ id: article.id }, { status: 'published' });
-    })
-  }
+  },
 };

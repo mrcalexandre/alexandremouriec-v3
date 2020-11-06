@@ -6,9 +6,9 @@ module.exports = {
   siteMetadata: {
     title: "Alexandre Mouriec",
     titleTemplate: "%s · Full Stack Developer",
-    description: "Alexandre Mouriec's portfolio",
+    description: "Alexandre Mouriec's Portfolio",
     url: process.env.API_URL || "http://localhost:1337", // No trailing slash allowed!
-    image: "/uploads/default-image.jpeg", // Path to your image you placed in the 'static' folder
+    image: "/icon-192x192.png", // Path to your image you placed in the 'static' folder
     twitterUsername: "@mrcalexandre",
   },
   plugins: [
@@ -36,7 +36,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "alexandre-mouriec-portfolio",
-        short_name: "alexandremouriec",
+        short_name: "Alexandre Mouriec",
         start_url: "/",
         background_color: "#f5f5f5",
         theme_color: "#4FD1C5",
