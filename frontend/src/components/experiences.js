@@ -11,7 +11,7 @@ const Experiences = ({ experiences }) => {
       <div className="text-center">
         <div className="inline-block w-5/6 py-8 align-middle sm:px-6 lg:px-6">
           <div className="overflow-hidden border rounded-lg shadow-sm">
-            <table className="w-full divide-y divide-gray-200">
+            <table className="w-full bg-white divide-y divide-gray-200">
               <thead>
                 <tr className="bg-white border-b-2 border-gray-50">
                   <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-center text-gray-600 uppercase">
