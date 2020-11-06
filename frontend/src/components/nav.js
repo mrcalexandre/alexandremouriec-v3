@@ -43,9 +43,9 @@ export default function Nav({ fixed }) {
           }
         >
           <ul className="flex flex-col list-none lg:flex-row lg:ml-auto">
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <Link
-                to="#dashboard"
+                to="/dashboard"
                 className="flex items-center px-3 py-2 text-lg font-bold text-gray-900 rounded-md hover:bg-gray-200"
               >
                 Dashboard
@@ -56,7 +56,7 @@ export default function Nav({ fixed }) {
                   <span className="relative inline-flex w-2 h-2 bg-pink-500 rounded-full"></span>
                 </div>
               </Link>
-            </li> */}
+            </li>
             <li className="nav-item">
               <Link
                 to="/about"
