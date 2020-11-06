@@ -20,7 +20,7 @@ const Experiences = ({ experiences }) => {
                   <th className="hidden px-6 py-3 text-xs font-medium leading-4 tracking-wider text-center text-gray-600 uppercase lg:table-cell">
                     Description
                   </th>
-                  <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-center text-gray-600 uppercase">
+                  <th className="hidden px-6 py-3 text-xs font-medium leading-4 tracking-wider text-center text-gray-600 uppercase lg:table-cell">
                     Dates
                   </th>
                 </tr>
