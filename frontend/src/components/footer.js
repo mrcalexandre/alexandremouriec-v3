@@ -5,9 +5,9 @@ export default function Footer() {
   var date = "© " + new Date().getFullYear() + " - Alexandre Mouriec"
   return (
     <footer className="flex flex-col items-center justify-between px-4 py-2 mt-16 bg-gray-100 sm:flex-row">
-      <h6 className="font-bold text-gray-700 text-md hover:text-gray-600">
+      <span className="font-bold text-gray-700 text-md hover:text-gray-600">
         {date}
-      </h6>
+      </span>
 
       <div className="flex text-gray-700">
         <a

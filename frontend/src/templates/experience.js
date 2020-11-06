@@ -16,19 +16,19 @@ const Experience = ({ experience }) => {
             <div className="font-semibold leading-5 text-gray-900 text-md sm:text-sm">
               {experience.node.role}
             </div>
-            <div className="font-medium leading-5 text-left text-gray-500 text-md sm:text-sm">
+            <div className="font-medium leading-5 text-left text-gray-600 text-md sm:text-sm">
               {experience.node.company}
             </div>
           </div>
         </div>
       </td>
       <td className="px-4 py-4 whitespace-no-wrap">
-        <div className="flex font-bold leading-5 text-left text-gray-700 text-md sm:text-xs md:text-xs lg:text-md">
+        <div className="hidden font-bold leading-5 text-left text-gray-700 text-md sm:text-xs md:text-xs lg:text-md lg:table-cell">
           {experience.node.description}
         </div>
       </td>
       <td className="px-4 py-4 whitespace-no-wrap">
-        <span className="inline-flex px-4 py-1 font-semibold leading-5 text-teal-800 bg-teal-100 rounded-full sm:text-xs md:text-xs lg:text-md">
+        <span className="hidden px-4 py-1 font-semibold leading-5 text-teal-800 bg-teal-100 rounded-full sm:text-xs md:text-xs lg:text-md lg:table-cell">
           {experience.node.date}
         </span>
       </td>

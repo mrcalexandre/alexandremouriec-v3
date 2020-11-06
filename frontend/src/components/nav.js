@@ -16,6 +16,7 @@ export default function Nav({ fixed }) {
           <button
             className="block px-3 py-1 text-xl text-white bg-transparent border border-none outline-none lg:hidden focus:outline-none"
             type="button"
+            aria-label="menu"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
             <svg

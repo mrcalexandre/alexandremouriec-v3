@@ -6,11 +6,11 @@ import Footer from "./footer"
 
 const Layout = ({ children }) => {
   return (
-    <body className="bg-gray-100">
+    <main className="bg-gray-100">
       <Nav />
       {children}
       <Footer />
-    </body>
+    </main>
   )
 }
 

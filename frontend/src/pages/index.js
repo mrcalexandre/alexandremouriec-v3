@@ -70,8 +70,10 @@ const IndexPage = () => (
                 </span>
               </p>
             </div>
-            <Link
-              to="Resume_Alexandre_Mouriec.pdf"
+            <a
+              href="/Resume_Alexandre_Mouriec.pdf"
+              target="_blank"
+              rel="noreferrer nopener"
               className="flex justify-center w-1/2 py-2 mx-auto mt-4 text-lg font-bold text-center text-white transition duration-150 ease-in-out bg-teal-400 border border-transparent rounded-lg shadow-lg lg:w-1/4 hover:bg-teal-300 focus:outline-none focus:border-teal-400 focus:shadow-outline-teal hover:shadow-xl"
             >
               My resume{""}
@@ -91,7 +93,7 @@ const IndexPage = () => (
                 <polyline points="7 10 12 15 17 10"></polyline>
                 <line x1="12" y1="15" x2="12" y2="3"></line>
               </svg>
-            </Link>
+            </a>
           </div>
         </div>
         <Experiences experiences={data.allStrapiExperience.edges} />

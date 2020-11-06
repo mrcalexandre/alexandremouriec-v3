@@ -14,13 +14,13 @@ const Experiences = ({ experiences }) => {
             <table className="w-full divide-y divide-gray-200">
               <thead>
                 <tr className="bg-white border-b-2 border-gray-50">
-                  <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-center text-gray-500 uppercase">
+                  <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-center text-gray-600 uppercase">
                     Role
                   </th>
-                  <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-center text-gray-500 uppercase">
+                  <th className="hidden px-6 py-3 text-xs font-medium leading-4 tracking-wider text-center text-gray-600 uppercase lg:table-cell">
                     Description
                   </th>
-                  <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-center text-gray-500 uppercase">
+                  <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-center text-gray-600 uppercase">
                     Dates
                   </th>
                 </tr>

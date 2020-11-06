@@ -6,7 +6,7 @@ export default function Hero() {
     <>
       <img
         className="w-auto h-24 mx-auto rounded-full shadow-md lg:h-32 sm:h-24"
-        src="/icons/AlexandreMouriec.png"
+        src="/icons/icon-192x192.png"
         alt="Alexandre Mouriec"
       />
       <h1 className="mt-6 text-xl font-extrabold leading-10 tracking-tight text-center text-gray-900 transition-transform duration-500 transform sm:text-xl sm:leading-none lg:text-2xl hover:scale-110">

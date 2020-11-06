@@ -60,7 +60,7 @@ const AboutPage = () => (
       </div>
     </div>
     <h1 className="pb-2 mx-4 mt-8 text-xl font-extrabold leading-10 tracking-tight text-center text-gray-900 sm:text-xl sm:leading-none lg:text-2xl">
-      From a small town to the Internet, breaking in tech as a Gen Z
+      From a small town to the Internet, breaking into tech as a Gen Z
     </h1>
     <div class="container px-5 py-18 mt-2 mx-auto flex flex-wrap">
       <div class="flex relative pt-2 pb-20 sm:items-center md:w-2/3 mx-auto">
