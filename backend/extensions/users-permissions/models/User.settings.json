@@ -63,10 +63,6 @@
       ],
       "plugin": "upload",
       "required": true
-    },
-    "articles": {
-      "via": "user",
-      "collection": "article"
     }
   }
 }
