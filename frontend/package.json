@@ -17,7 +17,7 @@
     "gatsby-plugin-offline": "^3.3.2",
     "gatsby-plugin-postcss": "^2.3.13",
     "gatsby-plugin-react-helmet": "^3.3.14",
-    "gatsby-plugin-sharp": "^2.7.1",
+    "gatsby-plugin-sharp": "^2.9.0",
     "gatsby-remark-social-cards": "^0.4.1",
     "gatsby-source-filesystem": "^2.4.1",
     "gatsby-source-strapi": "^0.0.12",
